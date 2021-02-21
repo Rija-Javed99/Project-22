@@ -60,14 +60,14 @@ function draw() {
 function keyPressed() {
 
 	if(keyCode === RIGHT_ARROW){
-           fairy.x = fairy.x + 20;
+           //move 20 right
 	}
 	
         if(keyCode === LEFT_ARROW){
-           fairy.x = fairy.x - 20;
+           //move 20 right
 	}
 
 	if (keyCode === DOWN_ARROW) {
-		Matter.Body.setStatic(starBody,false); 
+		//set static body
 	}
 }
